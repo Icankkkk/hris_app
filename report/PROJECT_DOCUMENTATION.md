@@ -1,12 +1,12 @@
-# Dokumentasi Teknis & Riwayat Pengembangan: SenjaHRIS
+# Dokumentasi Teknis & Riwayat Pengembangan: TerabasHRIS
 
-Dokumen ini merangkum seluruh arsitektur, riwayat perbaikan, konfigurasi lingkungan, peningkatan keamanan, akun uji coba, serta panduan operasional sistem **SenjaHRIS**.
+Dokumen ini merangkum seluruh arsitektur, riwayat perbaikan, konfigurasi lingkungan, peningkatan keamanan, akun uji coba, serta panduan operasional sistem **TerabasHRIS**.
 
 ---
 
 ## 1. Ringkasan Eksekutif Sistem
 
-* **Nama Aplikasi**: SenjaHRIS (Modern Human Resource Information System)
+* **Nama Aplikasi**: TerabasHRIS (Modern Human Resource Information System)
 * **Arsitektur**: Decoupled Client-Server (RESTful API + Single Page Application)
 * **Backend**: Laravel 12 (PHP 8.2), MySQL, Spatie Laravel-Permission, Laravel Sanctum
 * **Frontend**: Vue 3 (Composition API `<script setup>`), Vite 5, Tailwind CSS, Pinia, Lucide Icons
@@ -23,7 +23,7 @@ Dokumen ini merangkum seluruh arsitektur, riwayat perbaikan, konfigurasi lingkun
 | **Menu Sidebar Hilang / Tidak Merespons** | Array `permissions` kosong di response `UserResource.php` dan seeder belum terpanggil. | Memperbaiki serialisasi permissions di `UserResource`, menambahkan `PermissionSeeder` & `RolePermissionSeeder` di `DatabaseSeeder`, dan menjalankan `php artisan migrate:fresh --seed`. |
 | **Konflik Rute Edit vs Detail** | Rute `/projects/:id` mendahului dan menduplikasi `/projects/:id/edit`. | Memperbaiki susunan rute di `src/router/project.js` dan `src/router/team.js`. |
 | **Aset Gambar / Avatar Tidak Muncul** | File dummy `public/storage` dari macOS zip memblokir pembuatan symlink asli. | Menghapus dummy file, menyalin aset ke `storage/app/public/`, dan menghubungkan symlink resmi dengan `php artisan storage:link`. |
-| **Section Upgrade to Pro** | Mockup statis template SaaS yang tidak fungsional. | Menggantinya dengan Card Bantuan & HR Helpdesk interaktif beserta badge versi `SenjaHRIS v1.0.0`. |
+| **Section Upgrade to Pro** | Mockup statis template SaaS yang tidak fungsional. | Menggantinya dengan Card Bantuan & HR Helpdesk interaktif beserta badge versi `TerabasHRIS v1.0.0`. |
 | **Tombol Quick Actions Tidak Sinkron** | Tombol statis tanpa link dan tanpa pengecekan role pengguna. | Mengubah `QuickActions.vue` menjadi dinamis berbasis RBAC (`can()`) dengan style presisi sesuai FE SKILL. |
 | **Endpoint Slip Gaji Karyawan Belum Terhubung** | Rute `/my-payslips` belum terdaftar di backend. | Mengimplementasikan `getMyPayslips` & `getMyPayslip` di Controller, Repository, dan mendaftarkan rutenya di `routes/api.php`. |
 

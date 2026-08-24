@@ -1,6 +1,6 @@
-# Laporan Resmi Hasil Pengujian QA: SenjaHRIS Web Application
+# Laporan Resmi Hasil Pengujian QA: TerabasHRIS Web Application
 
-Dokumen ini merupakan laporan pengujian kualitas (*Quality Assurance Test Report*) komprehensif untuk aplikasi **SenjaHRIS**, yang dieksekusi berdasarkan standar pengujian [`.agents/skills/hris-qa/SKILL.md`](file:///c:/Users/muham/Web%20project/hris_app/.agents/skills/hris-qa/SKILL.md).
+Dokumen ini merupakan laporan pengujian kualitas (*Quality Assurance Test Report*) komprehensif untuk aplikasi **TerabasHRIS**, yang dieksekusi berdasarkan standar pengujian [`.agents/skills/hris-qa/SKILL.md`](file:///c:/Users/muham/Web%20project/hris_app/.agents/skills/hris-qa/SKILL.md).
 
 ---
 
@@ -14,7 +14,7 @@ Dokumen ini merupakan laporan pengujian kualitas (*Quality Assurance Test Report
 * **Status Kesiapan**: **READY FOR PRODUCTION / CLIENT DEMO**
 
 ```mermaid
-pie title Hasil Pengujian QA SenjaHRIS (34 Test Cases)
+pie title Hasil Pengujian QA TerabasHRIS (34 Test Cases)
     "Passed (100%)" : 34
     "Failed (0%)" : 0
 ```

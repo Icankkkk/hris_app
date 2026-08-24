@@ -46,8 +46,8 @@ const handleSubmit = async () => {
           <BuildingIcon class="w-5 h-5 text-white relative z-10" />
         </div>
         <div>
-          <h1 class="text-brand-dark text-lg font-bold">SenjaHRIS</h1>
-          <p class="text-brand-dark text-xs font-normal">Manager Dashboard</p>
+          <h1 class="text-brand-dark text-lg font-bold">TerabasHRIS</h1>
+          <p class="text-brand-dark text-xs font-normal">HRIS Portal</p>
         </div>
       </div>
 

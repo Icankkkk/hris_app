@@ -1,6 +1,6 @@
-# SenjaHRIS Project Reports & Documents
+# TerabasHRIS Project Reports & Documents
 
-Folder ini berisi seluruh dokumen laporan pengujian kualitas (*QA Testing*), dokumen strategi penawaran komersial (*Business Proposal*), serta dokumentasi teknis sistem **SenjaHRIS**:
+Folder ini berisi seluruh dokumen laporan pengujian kualitas (*QA Testing*), dokumen strategi penawaran komersial (*Business Proposal*), serta dokumentasi teknis sistem **TerabasHRIS**:
 
 ---
 

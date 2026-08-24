@@ -203,9 +203,9 @@
         <table>
             <tr>
                 <td style="vertical-align: middle;">
-                    <h1 class="company-name">PT SENJA SOLUSI DIGITAL</h1>
-                    <div class="company-subtitle">Human Resources Information System • SenjaHRIS v1.0.0</div>
-                    <div class="company-subtitle">Menara Senja Lt. 18, Jakarta Selatan • support@senjahris.com</div>
+                    <h1 class="company-name">PT TERABAS SOLUSI DIGITAL</h1>
+                    <div class="company-subtitle">Human Resources Information System • TerabasHRIS v1.0.0</div>
+                    <div class="company-subtitle">Menara Terabas Lt. 18, Jakarta Selatan • support@terabashris.com</div>
                 </td>
                 <td class="doc-title-box" style="vertical-align: middle;">
                     <div class="doc-title">SLIP GAJI KARYAWAN</div>
@@ -322,15 +322,15 @@
             <td class="sig-box">
                 <div>Disahkan Oleh,</div>
                 <div class="sig-line">Finance & HR Department</div>
-                <div class="sig-title">PT Senja Solusi Digital</div>
+                <div class="sig-title">PT Terabas Solusi Digital</div>
             </td>
         </tr>
     </table>
 
     <!-- Footer Note -->
     <div class="footer-note">
-        Dokumen ini dibuat dan diterbitkan secara otomatis oleh SenjaHRIS. Kerahasiaan slip gaji ini dilindungi oleh kebijakan privasi perusahaan.
-        Dicetak pada: {{ date('d F Y, H:i') }} WIB • Verifikasi Sistem: SENJA-{{ strtoupper(substr(md5($detail->id . ($detail->final_salary ?? 0)), 0, 8)) }}
+        Dokumen ini dibuat dan diterbitkan secara otomatis oleh TerabasHRIS. Kerahasiaan slip gaji ini dilindungi oleh kebijakan privasi perusahaan.
+        Dicetak pada: {{ date('d F Y, H:i') }} WIB • Verifikasi Sistem: TERABAS-{{ strtoupper(substr(md5($detail->id . ($detail->final_salary ?? 0)), 0, 8)) }}
     </div>
 
 </body>

@@ -1,11 +1,11 @@
 ---
 name: hris-qa
-description: Comprehensive QA testing matrix, feature analysis, test accounts, API & UI test scenarios, and troubleshooting Q&A for testing and verifying the SenjaHRIS application.
+description: Comprehensive QA testing matrix, feature analysis, test accounts, API & UI test scenarios, and troubleshooting Q&A for testing and verifying the TerabasHRIS application.
 ---
 
-# SenjaHRIS QA Testing & Verification Guide (`hris-qa`)
+# TerabasHRIS QA Testing & Verification Guide (`hris-qa`)
 
-This skill provides a complete feature analysis, role-based testing matrix, API & UI test scenarios, and troubleshooting Q&A for validating the **SenjaHRIS** web application.
+This skill provides a complete feature analysis, role-based testing matrix, API & UI test scenarios, and troubleshooting Q&A for validating the **TerabasHRIS** web application.
 
 ---
 

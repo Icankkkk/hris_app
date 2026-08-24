@@ -5,7 +5,7 @@ description: Architecture, design system guidelines, UI conventions, Pinia store
 
 # HRIS Frontend Development Guide (`hris-fe-main`)
 
-This skill provides architectural rules, component patterns, state management standards, and design system guidelines for the **SenjaHRIS Frontend** application.
+This skill provides architectural rules, component patterns, state management standards, and design system guidelines for the **TerabasHRIS Frontend** application.
 
 ---
 

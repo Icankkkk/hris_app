@@ -1,9 +1,9 @@
 # 📄 PROPOSAL PENAWARAN & PRODUCT WALKTHROUGH
-## Solusi Transformasi Digital SDM Terpadu: SenjaHRIS
+## Solusi Transformasi Digital SDM Terpadu: TerabasHRIS
 
 **Dipersiapkan untuk**: Manajemen & Direksi Perusahaan Calon Klien  
 **Tanggal**: 24 Agustus 2026  
-**Versi Sistem**: SenjaHRIS v1.0.0 (Enterprise Ready)  
+**Versi Sistem**: TerabasHRIS v1.0.0 (Enterprise Ready)  
 **Status Pengujian**: ✅ 100% Passed (34 Skenario Pengujian QA Lolos)
 
 ---
@@ -12,11 +12,11 @@
 
 Di era industri modern yang serba cepat, pengelolaan Sumber Daya Manusia (SDM) yang masih bergantung pada pencatatan manual (*spreadsheet*, form kertas, rekap absensi fingerprint fisik) menjadi sumber utama inefisiensi, kebocoran biaya operasional, dan risiko kesalahan hitung penggajian (*payroll miscalculation*).
 
-**SenjaHRIS** hadir sebagai platform *Human Resource Information System* (HRIS) generasi baru berbasis web (*cloud & on-premise ready*) yang mengintegrasikan seluruh siklus manajemen karyawan—mulai dari absensi real-time, pengajuan cuti digital, manajemen proyek & tim, hingga kalkulasi penggajian otomatis berstandar perbankan.
+**TerabasHRIS** hadir sebagai platform *Human Resource Information System* (HRIS) generasi baru berbasis web (*cloud & on-premise ready*) yang mengintegrasikan seluruh siklus manajemen karyawan—mulai dari absensi real-time, pengajuan cuti digital, manajemen proyek & tim, hingga kalkulasi penggajian otomatis berstandar perbankan.
 
 ```mermaid
 graph TD
-    subgraph SenjaHRIS Ecosystem
+    subgraph TerabasHRIS Ecosystem
         A[Dashboard & Analytics] --> B[Master Data Karyawan]
         A --> C[Absensi & Cuti Digital]
         A --> D[Manajemen Tim & Kanban Task]
@@ -54,7 +54,7 @@ Karyawan dapat secara mandiri melakukan *Clock-In/Clock-Out*, mengajukan cuti, m
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                             MODUL UTAMA SENJAHRIS                           │
+│                             MODUL UTAMA TERABASHRIS                         │
 ├───────────────────────┬───────────────────────────┬─────────────────────────┤
 │ 1. Core HR & Org      │ 2. Time & Attendance      │ 3. Compensation & Pay   │
 │ • Struktur Tim        │ • Live Clock In/Out       │ • Payroll Generator     │
@@ -135,7 +135,7 @@ Kami menawarkan model implementasi yang fleksibel sesuai kebutuhan skala bisnis 
 
 | Komponen Penawaran | Detail Spesifikasi | Biaya Investasi (One-Time) |
 | :--- | :--- | :---: |
-| **Lisensi Perangkat Lunak SenjaHRIS** | Full Source Code (Frontend + Backend), Akses Pengguna Tak Terbatas (*Unlimited Users*), *White-labeling* (Kustomisasi Nama & Logo Perusahaan). | **Rp 45.000.000** |
+| **Lisensi Perangkat Lunak TerabasHRIS** | Full Source Code (Frontend + Backend), Akses Pengguna Tak Terbatas (*Unlimited Users*), *White-labeling* (Kustomisasi Nama & Logo Perusahaan). | **Rp 45.000.000** |
 | **Instalasi & Deployment Server** | Setup di Server / Cloud Klien (AWS / Google Cloud / Server Lokal), Konfigurasi Database & Keamanan. | **Rp 5.000.000** |
 | **Pelatihan & Migrasi Data Awal** | Training Admin HR & Finance (Online/Onsite), Impor Data Karyawan Awal dari Excel. | **Rp 3.500.000** |
 | **Total Investasi Awal** | *Semua paket di atas (Termasuk Garansi Bug Fixes 6 Bulan)* | **Rp 53.500.000** *(One-time)* |
@@ -160,8 +160,8 @@ Hari 9 - 10  : Training Pengguna (Admin & Karyawan) + Sistem Resmi Go-Live
 
 Kami siap membawakan sesi **Live Interactive Demo** di hadapan jajaran Direksi dan Tim HR perusahaan Anda. Silakan hubungi kami untuk mendiskusikan jadwal:
 
-* **Penanggung Jawab**: Tim Solusi Bisnis & Teknologi SenjaHRIS
-* **Email**: `support@senjahris.com` / `admin@senjahris.com`
+* **Penanggung Jawab**: Tim Solusi Bisnis & Teknologi TerabasHRIS
+* **Email**: `support@terabashris.com` / `admin@terabashris.com`
 * **Dokumen Teknis Terlampir**:
   * 🧪 [Laporan Pengujian Kualitas Sistem (`report/QA_TEST_REPORT.md`)](./QA_TEST_REPORT.md)
   * 📖 [Dokumentasi Lengkap Sistem (`report/PROJECT_DOCUMENTATION.md`)](./PROJECT_DOCUMENTATION.md)

@@ -1,4 +1,4 @@
-# Root Git Ignore for SenjaHRIS Workspace
+# Root Git Ignore for TerabasHRIS Workspace
 
 # Backend (hris-api-main)
 hris-api-main/vendor/
