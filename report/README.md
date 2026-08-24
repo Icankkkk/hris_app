@@ -1,22 +1,25 @@
 # TerabasHRIS Project Reports & Documents
 
-Folder ini berisi seluruh dokumen laporan pengujian kualitas (*QA Testing*), dokumen strategi penawaran komersial (*Business Proposal*), serta dokumentasi teknis sistem **TerabasHRIS**:
+Folder ini berisi seluruh dokumen laporan pengujian kualitas (*QA Testing*), dokumen strategi penawaran komersial (*Business Proposal*), serta dokumentasi teknis sistem **TerabasHRIS** yang tersedia dalam format **Markdown (.md)** dan **PDF Siap Lampir (.pdf)**:
 
 ---
 
 ## 📁 Daftar Dokumen Lengkap:
 
-1. 📖 [**`PROJECT_DOCUMENTATION.md`**](./PROJECT_DOCUMENTATION.md)
-   * **Deskripsi**: Dokumentasi teknis & rangkuman menyeluruh (Arsitektur sistem, riwayat perbaikan bug dari awal, peningkatan keamanan/hardening, akun pengujian, dan panduan menjalankan aplikasi).
-   * **Target Pembaca**: Developer, Project Manager, Tech Lead, AI Agents.
+### 1. 💼 Proposal Penawaran Komersial & Product Walkthrough
+* 📄 **Markdown**: [`PROPOSAL_PENAWARAN_HRIS.md`](./PROPOSAL_PENAWARAN_HRIS.md)
+* 📕 **PDF Versi Notion / Klien**: [`PROPOSAL_PENAWARAN_HRIS.pdf`](./PROPOSAL_PENAWARAN_HRIS.pdf)
+* *Deskripsi*: Dokumen proposal lengkap untuk klien B2B (Value proposition, rincian modul fitur, arsitektur teknologi, analisis ROI, dan skema harga SaaS & On-Premise).
 
-2. 🧪 [**`QA_TEST_REPORT.md`**](./QA_TEST_REPORT.md)
-   * **Deskripsi**: Laporan resmi hasil pengujian kualitas komprehensif seluruh modul sistem (34 skenario pengujian, validasi 4 role pengguna, verifikasi API, dan build status 100% Passed).
-   * **Target Pembaca**: Developer, QA Engineer, Tech Lead, CTO.
+### 2. 📖 Dokumentasi Teknis & Riwayat Pengembangan
+* 📄 **Markdown**: [`PROJECT_DOCUMENTATION.md`](./PROJECT_DOCUMENTATION.md)
+* 📕 **PDF Versi Notion / Klien**: [`PROJECT_DOCUMENTATION.pdf`](./PROJECT_DOCUMENTATION.pdf)
+* *Deskripsi*: Dokumentasi teknis & sistem menyeluruh (Arsitektur, riwayat perbaikan bug, peningkatan keamanan/hardening, direktori akun pengujian, dan panduan menjalankan aplikasi).
 
-3. 💼 [**`PROPOSAL_PENAWARAN_HRIS.md`**](./PROPOSAL_PENAWARAN_HRIS.md)
-   * **Deskripsi**: Dokumen proposal dan strategi penawaran komersial untuk klien B2B/perusahaan (Value proposition, breakdown modul fitur, keunggulan teknologi, analisis ROI, dan skema paket harga SaaS & On-Premise).
-   * **Target Pembaca**: Klien Perusahaan, Manajer HR, Direksi, C-Level Executives.
+### 3. 🧪 Laporan Resmi Hasil Pengujian Kualitas (QA Test Report)
+* 📄 **Markdown**: [`QA_TEST_REPORT.md`](./QA_TEST_REPORT.md)
+* 📕 **PDF Versi Notion / Klien**: [`QA_TEST_REPORT.pdf`](./QA_TEST_REPORT.pdf)
+* *Deskripsi*: Laporan resmi hasil pengujian kualitas komprehensif seluruh modul sistem (34 skenario lolos uji 100% Passed).
 
 ---
 
