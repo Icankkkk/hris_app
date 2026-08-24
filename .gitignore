@@ -1,0 +1,43 @@
+# Root Git Ignore for SenjaHRIS Workspace
+
+# Backend (hris-api-main)
+hris-api-main/vendor/
+hris-api-main/.env
+hris-api-main/.env.backup
+hris-api-main/.env.production
+hris-api-main/.phpunit.result.cache
+hris-api-main/storage/*.key
+hris-api-main/storage/logs/*.log
+hris-api-main/storage/framework/cache/data/*
+hris-api-main/storage/framework/sessions/*
+hris-api-main/storage/framework/views/*
+hris-api-main/storage/framework/testing/*
+!hris-api-main/storage/framework/cache/.gitignore
+!hris-api-main/storage/framework/sessions/.gitignore
+!hris-api-main/storage/framework/views/.gitignore
+!hris-api-main/storage/framework/testing/.gitignore
+hris-api-main/public/storage
+
+# Frontend (hris-fe-main)
+hris-fe-main/node_modules/
+hris-fe-main/dist/
+hris-fe-main/.env.local
+hris-fe-main/.env.*.local
+hris-fe-main/npm-debug.log*
+hris-fe-main/yarn-debug.log*
+hris-fe-main/yarn-error.log*
+hris-fe-main/pnpm-debug.log*
+
+# Archives
+*.zip
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
